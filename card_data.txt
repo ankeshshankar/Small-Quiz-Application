@@ -1,0 +1,9 @@
+cpp;OOP stands for?;Object oriented programming.
+cpp;What is a class?;A class is a blueprint for an object.
+cpp;What is an inline function?;A function prefixed with the keyword inline before the function definition is called as inline function.
+java;What is JDK?;JDK is Java development kit
+java;What is JVM?;JVM is Java virtual machine
+java;Difference between Abstract and Concrete Class ?;Abstract classes are only meant to be sub classed and not meant to be instantiated whereas concrete classes are meant to be instantiated.
+python;What are the supported data types in Python?;Numbers, String, List, Tuple, Dictionary
+python;What is dictionary in Python?;The built-in datatypes in Python is called dictionary. It defines one-to-one relationship between keys and values.
+python;How will you reverse a list?;list.reverse() − Reverses objects of list in place.
