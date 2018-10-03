@@ -1,0 +1,16 @@
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="400.0" maxWidth="297.0" minHeight="400.0" minWidth="297.0" prefHeight="400.0" prefWidth="297.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label layoutX="34.0" layoutY="61.0" prefHeight="27.0" prefWidth="239.0" text="Label" />
+        <Label fx:id="subject" layoutX="32.0" layoutY="102.0" prefHeight="27.0" prefWidth="233.0" text="Label" />
+        <Label fx:id="question" contentDisplay="CENTER" layoutX="67.0" layoutY="14.0" prefHeight="15.0" prefWidth="162.0" text="Try Your Luck!!" textAlignment="CENTER" >
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <TextArea fx:id="answer" layoutX="34.0" layoutY="158.0" prefHeight="207.0" prefWidth="239.0" editable="false" />
+    </children>
+</Pane>
