@@ -1,0 +1,21 @@
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="400.0" maxWidth="297.0" minHeight="400.0" minWidth="297.0" prefHeight="400.0" prefWidth="297.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.Controller">
+    <children>
+        <Label contentDisplay="CENTER"  layoutX="34.0" layoutY="61.0" prefHeight="29.0" prefWidth="205.0" text="Choose Your Favourite Subject.">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <RadioButton fx:id="java" onAction="#java" contentDisplay="CENTER"  layoutX="84.0" layoutY="102.0" mnemonicParsing="false" text="Java" />
+        <RadioButton fx:id="python" onAction="#python" contentDisplay="CENTER"  layoutX="84.0" layoutY="143.0" mnemonicParsing="false" text="Python" />
+        <RadioButton fx:id="cpp" onAction="#cpp" contentDisplay="CENTER"  layoutX="84.0" layoutY="184.0" mnemonicParsing="false" text="Cpp" />
+    </children>
+</Pane>
+
